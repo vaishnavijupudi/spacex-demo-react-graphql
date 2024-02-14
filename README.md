@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with  App
 
 This project consists of a small peek into the spaceX demo. This project has Home Page which allows the user to navigate to two pages one being upcoming-missions and other being launches. The user can view the page and if he is intrested to learn more he can click on learn to be navigated to individual launch details. There is a filter for date in launches page which allows user to filter out the launches based on the dates.
 
