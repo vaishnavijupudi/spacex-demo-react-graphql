@@ -1,5 +1,5 @@
 import './App.css';
-import UpcomingMissions from './components/UpcomingMissions';
+import UpcomingMissions from './pages/UpcomingMissions';
 import Launches from './pages/Launches';
 import LaunchDetails from './pages/LaunchDetails';
 import PageNotFound from './pages/PageNotFound';

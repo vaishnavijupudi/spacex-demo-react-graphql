@@ -56,7 +56,7 @@ const Home = () => {
             sx={{
             position: 'absolute',
             bottom: '45%',
-            left: '55%',
+            left: '60%',
             transform: 'translateX(-50%)',
             '@media (max-width: 600px)': {
                 bottom: '65%',
