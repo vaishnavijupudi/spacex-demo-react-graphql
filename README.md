@@ -39,3 +39,30 @@ Check the URL: http://localhost:3000 for the demo
 - [MaterialUI](https://mui.com/material-ui/) - The styling framework used.
 - [GraphQl](https://studio.apollographql.com/public/SpaceX-pxxbxen/variant/current/home) - The api for data
 
+## Home Page
+- The page consists of two buttons one navigates to launches and other navigates to upcoming launches
+- The page is responsive
+
+## Launches Page
+- The page consists of all launches with an option to read mnore about the individual launch
+- The page also has two dates start date and end date with which the data belonging to that particular dates can be rendered
+- The data with with no images have a default image in the page
+- The page is responsive
+
+## Upcoming-Launches Page
+- The page consists of all upcoming launches with an option to read mnore about the individual launch
+- The page also has a sneak peak to the rocket description. It is replaced with ... after 150 characters to maintain consistency
+- The data with with no images have a default image in the page
+- The page is responsive
+
+## Launche Details Page
+- The page consists of information related to the particular launche with an option to read more about the individual launch articles and users are given a option to view the video to
+- The page consists of details like mission description, rocket details. if there is no data related to them then it is not displayed
+- The data with with no images have a default image in the page
+- The page is responsive
+
+## Nav
+- The Icon on the nav bar navigates to home page when clicked on it
+- It is displayed in all pages
+- It is responsive
+
