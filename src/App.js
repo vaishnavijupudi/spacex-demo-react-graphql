@@ -1,24 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import UpcomingMissions from './components/UpcomingMissions';
+import Launches from './pages/Launches';
+import LaunchDetails from './pages/LaunchDetails';
+import PageNotFound from './pages/PageNotFound';
+import Home from './pages/Home';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import NavSpaceX from './components/NavSpaceX';
+
+
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  console.log("hello");
+// <UpcomingMissions/>
+//<Launches/>
+  return (  
+
+    <BrowserRouter>
+      <NavSpaceX/>
+      <Routes>
+      <Route path="/" element={<Home/>} exact/>
+      <Route path="/upcoming-missions" element={ <UpcomingMissions/>} />
+      <Route path="/launches" element={<Launches/>} />
+      <Route path="/launch-details/:id" element={<LaunchDetails/>} />
+      <Route  element={<PageNotFound/>} />
+      </Routes>
+      
+
+    </BrowserRouter>
+
+   
   );
 }
 

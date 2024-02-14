@@ -1,6 +1,22 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project consists of a small peek into the spaceX demo. This project has Home Page which allows the user to navigate to two pages one being upcoming-missions and other being launches. The user can view the page and if he is intrested to learn more he can click on learn to be navigated to individual launch details. There is a filter for date in launches page which allows user to filter out the launches based on the dates.
+
+## Authors
+
+- [Sai Vaishnavi Jupudi]- _(Developer)_
+
+### Prerequisites
+
+To have a local copy of this tutorial up and running on your local machine, you will first need to install the following software / libraries / plug-ins
+​
+```
+Node Package Manager (NPM)
+A browser (ex:chrome)
+A code editor(ex: vscode)
+Git Bash
+```
+
 
 ## Available Scripts
 
